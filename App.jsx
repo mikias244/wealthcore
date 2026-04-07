@@ -1,6 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
-import { Eye, EyeOff, Settings, Plus, Trash2, Pencil, GripVertical, Upload, CalendarDays, CheckCircle2, Camera, ArrowRight, Shield, PiggyBank, CreditCard, Wallet, BadgeDollarSign } from "lucide-react";
-
+const { useState, useEffect, useMemo, useRef } = React;
 const STORAGE_KEY = "monthly-budget-tracking-v2-complete";
 const DEFAULT_PIN = "1634";
 
